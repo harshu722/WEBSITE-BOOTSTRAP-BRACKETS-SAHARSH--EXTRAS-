@@ -1,178 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-     <title>University website design by saharsh </title>
-     <link rel="stylesheet" href="Style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section class="header">
-    <nav>
-        <a href="index.html"><img src="eduford_img/logo.png"</a>
-        <div class="nav-links" id="navlinks">
-          <i class="fa fa-times" onclick="hidemenu()"></i>
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSE</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACTSAHARSH</a></li>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="imh.png" alt="To-Do List"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="List-container">
+                <!-- List items will be added here dynamically -->
             </ul>
-        </div>  
-         <i class="fa fa-bars" onlclick="showmenu()"></i>                                   
-    </nav>
-<div class="text-box">
-    <h1>World's biggest University</h1>
-    <p>Making website is one of the easiest thing . This above website is created by me,Kolluru saharsh who wants the viewers to learn HTML,CSS<br>JAVASCRIPT then you can easily desing a webpage without any issues
-    </p>
-    <a href="" class="hero-btn">Visit us to know more</a>
-</div>
-            
-</section>
-<!-------- Course ------->
-<section class="course">
-    <h1>Courses We offer</h1>
-    <p>Loren ipsum Dolor sit amet, consecutor adipiscing elit</p>
-    
-    <div class="row">  
-       <div class="course-col">
-       <h3>Intermediate</h3>
-       <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
-    </div>
-     <div class="course-col">
-     <h3>Degree</h3>
-    <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
-    </div>  
-      <div class="course-col">
-      <h3>post graduation</h3>
-       <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
-    </div>                       
- </div>
-                              
-                                   
-                         
-</section> 
-                             
-<section class="campus"> 
-    <h1>Our global campus</h1>
-    <p>Loren ipsum Dolor sit amet, consecutor adipiscing elit</p> 
-    <div class="row">
-       <div class="campus-col">
-          <img src="eduford_img/london.png">  
-          <div class="layer">
-              <h3>LONDON</h3>
-          </div>
         </div>
-         <div class="campus-col">
-          <img src="eduford_img/newyork.png">
-          <div class="layer">
-             <h3>NEW YORK</h3>
-          </div>
-        </div>                   
-    </div>  
-         <div class="campus-col">
-          <img src="eduford_img/washington.png">
-          <div class="layer">
-              <h3>WASHINGTON</h3>
-          </div>
-        </div>                                  
-</section>  
-                            
-<section class="facilities">
-    <h1>Our Facilities</h1>
-    <p> Call saharsh for more details about features available for facilities.</p>
-                           
-    <div class="row">
-      <div class="facilities-col">
-         <img src="eduford_img/library.png">
-         <h3>World class Library</h3>
-         <p>We have built one of the best libraries ever and for other information call in our customer care number for more information</p>
-    </div>                          
-     <div class="facilities-col">
-         <img src="eduford_img/basketball.png">
-         <h3>Largest playground</h3>                                     
-         <p>We have built one of the best libraries ever and for other information call in our customer care number for more information</p>
-    </div>                                                              
-       <div class="facilities-col">
-         <img src="eduford_img/cafeteria.png">
-         <h3>tasty and healthy food</h3>                                 
-         <p>We have built one of the best libraries ever and for other information call in our customer care number for more information</p>
-    </div>                                              
-                           
-</section> 
-                                             
-<section class="testimonials">
-   <h1>What our audience want to give feedback</h1>
-    <p>Feedback givenby audience will be listed in google reviews and saharsh facbook live page</p>
-    <div classes="row">
-       <div class="testimonial-col">
-          <img src="eduford_img/user1.jpg">
-       <div>
-           <p>This student has been taken admission in our college and doing well in her studies we have trained her in such a way that she has a balance of both skills and knowledge which makes her standout from the crowd.</p>
-           <h3> Keerti kumari </h3> 
-           <i class="fa fa-star"></i>  
-           <i class="fa fa-star"></i>
-           <i class="fa fa-star"></i> 
-           <i class="fa fa-star"></i> 
-           <i class="fa fa-star-o></i>                  
-                
-       </div>
-    </div> 
-     <div class="testimonial-col">
-          <img src="eduford_img/user2.jpg">
-       <div>
-           <p>This student has been taken admission in our college and doing well in her studies we have trained her in such a way that she has a balance of both skills and knowledge which makes himtandout from the crowd.</p>
-           <h3> Darren Norman </h3>  
-           <i class="fa fa-star"></i> 
-           <i class="fa fa-star"></i>
-           <i class="fa fa-star"></i> 
-           <i class="fa fa-star"></i> 
-           <i class="fa fa-star-half-o"></i>
-      </div>                          
-    </div>   
-</div>                                                                                 
-</section>    
-
-<section class="cta">
-    <h1>Enroll from Various Online Courses<br>Anywhere from the World</h1> 
-    <a href="" class="hero-btn">CONTACT US</a>
-</section>
-
-<section class="footer">
-    <h4>About Us</h4>
-    <p>This college is situated in birmingham,UK which is known as one of the most prestigious university in London.
-    <p>Website created by -KOLLURU SAHARSH </p>
-    <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-     </div>
-    <p>MADE,<i class="fa fa-heart-o"></i>in London,UK</p>
-</section>
-
-                
-                                        
-                                        
-                                        
-                                        
-                                        
-<!--------Javascript for toggle menu--->
-<script>
-                               
-   var naviLinks = document.getElementById("navLinks");
-   function showMenu(){
-      navlinks.style.right = "0";
-}
-function hideMenu(){
-   navLinks.style.right = "-200px";
-}
-                                                                                 
-</script>                      
-
+    </div>
+    <!-- Footer with creator notice -->
+    <footer class="footer">
+        <p>Created by k.saharsh</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
